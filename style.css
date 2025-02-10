@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: rgb(27, 26, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas{
+    border: 1px solid rgb(217, 211, 238);
+}
+
+/* Define the block colors using CSS variables */
+:root {
+    --color-I: rgb(162, 236, 255);
+    --color-O: rgb(252, 234, 132);
+    --color-T: rgb(231, 123, 231);
+    --color-S: rgb(149, 245, 149);
+    --color-Z: rgb(212, 116, 116);
+    --color-J: rgb(117, 146, 201);
+    --color-L: rgb(226, 165, 51);
+}
+
+#next {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 80px;
+}
